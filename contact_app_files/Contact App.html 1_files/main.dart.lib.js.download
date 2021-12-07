@@ -1,0 +1,93 @@
+define(['dart_sdk', 'packages/flutter/src/material/app.dart', 'packages/flutter/src/material/icon_button.dart', 'packages/flutter/src/material/colors.dart', 'packages/my_contact_book_app/home.dart', 'packages/flutter/src/widgets/widget_inspector.dart'], (function load__packages__my_contact_book_app__main_dart(dart_sdk, packages__flutter__src__material__app$46dart, packages__flutter__src__material__icon_button$46dart, packages__flutter__src__material__colors$46dart, packages__my_contact_book_app__home$46dart, packages__flutter__src__widgets__widget_inspector$46dart) {
+  'use strict';
+  const core = dart_sdk.core;
+  const dart = dart_sdk.dart;
+  const dartx = dart_sdk.dartx;
+  const app = packages__flutter__src__material__app$46dart.src__material__app;
+  const theme_data = packages__flutter__src__material__icon_button$46dart.src__material__theme_data;
+  const colors = packages__flutter__src__material__colors$46dart.src__material__colors;
+  const home = packages__my_contact_book_app__home$46dart.home;
+  const widget_inspector = packages__flutter__src__widgets__widget_inspector$46dart.src__widgets__widget_inspector;
+  const framework = packages__flutter__src__widgets__widget_inspector$46dart.src__widgets__framework;
+  const binding = packages__flutter__src__widgets__widget_inspector$46dart.src__widgets__binding;
+  var main = Object.create(dart.library);
+  dart._checkModuleNullSafetyMode(true);
+  const CT = Object.create({
+    _: () => (C, CT)
+  });
+  dart.defineLazy(CT, {
+    get C0() {
+      return C[0] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_name]: "Home",
+        [_Location_column]: 15,
+        [_Location_line]: 19,
+        [_Location_file]: "file:///C:/Development/My_First_App/my_contact_book_app/lib/main.dart"
+      });
+    },
+    get C1() {
+      return C[1] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_name]: "MaterialApp",
+        [_Location_column]: 12,
+        [_Location_line]: 14,
+        [_Location_file]: "file:///C:/Development/My_First_App/my_contact_book_app/lib/main.dart"
+      });
+    },
+    get C3() {
+      return C[3] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_name]: "MyApp",
+        [_Location_column]: 16,
+        [_Location_line]: 5,
+        [_Location_file]: "file:///C:/Development/My_First_App/my_contact_book_app/lib/main.dart"
+      });
+    },
+    get C2() {
+      return C[2] = dart.const({
+        __proto__: main.MyApp.prototype,
+        [Widget__location]: C[3] || CT.C3,
+        [Widget_key]: null
+      });
+    }
+  }, false);
+  var C = Array(4).fill(void 0);
+  var I = ["package:my_contact_book_app/main.dart"];
+  var _Location_name = dart.privateName(widget_inspector, "_Location.name");
+  var _Location_column = dart.privateName(widget_inspector, "_Location.column");
+  var _Location_line = dart.privateName(widget_inspector, "_Location.line");
+  var _Location_file = dart.privateName(widget_inspector, "_Location.file");
+  main.MyApp = class MyApp extends framework.StatelessWidget {
+    build(context) {
+      return new app.MaterialApp.new({title: "Contact App", theme: theme_data.ThemeData.new({primarySwatch: colors.Colors.blue}), home: new home.Home.new({$creationLocationd_0dea112b090073317d4: C[0] || CT.C0}), $creationLocationd_0dea112b090073317d4: C[1] || CT.C1});
+    }
+  };
+  (main.MyApp.new = function(opts) {
+    let key = opts && 'key' in opts ? opts.key : null;
+    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
+    main.MyApp.__proto__.new.call(this, {key: key, $creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
+    ;
+  }).prototype = main.MyApp.prototype;
+  dart.addTypeTests(main.MyApp);
+  dart.addTypeCaches(main.MyApp);
+  dart.setMethodSignature(main.MyApp, () => ({
+    __proto__: dart.getMethods(main.MyApp.__proto__),
+    build: dart.fnType(framework.Widget, [framework.BuildContext])
+  }));
+  dart.setLibraryUri(main.MyApp, I[0]);
+  var Widget__location = dart.privateName(framework, "Widget._location");
+  var Widget_key = dart.privateName(framework, "Widget.key");
+  main.main = function main$() {
+    binding.runApp(C[2] || CT.C2);
+  };
+  dart.trackLibraries("packages/my_contact_book_app/main.dart", {
+    "package:my_contact_book_app/main.dart": main
+  }, {
+  }, '{"version":3,"sourceRoot":"","sources":["main.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAY4B;AACxB,YAAO,iCACI,sBACA,yCACiB,4BAElB;IACZ;;;QAXkB;;AAAQ,8CAAW,GAAG;;EAAC;;;;;;;;;;;AAJpB,IAArB;EACF","file":"../../../../packages/my_contact_book_app/main.dart.lib.js"}');
+  // Exports:
+  return {
+    main: main
+  };
+}));
+
+//# sourceMappingURL=main.dart.lib.js.map

@@ -1,0 +1,106 @@
+define(['dart_sdk'], (function load__packages__my_contact_book_app__contact_model_dart(dart_sdk) {
+  'use strict';
+  const core = dart_sdk.core;
+  const _js_helper = dart_sdk._js_helper;
+  const convert = dart_sdk.convert;
+  const dart = dart_sdk.dart;
+  const dartx = dart_sdk.dartx;
+  var contact_model = Object.create(dart.library);
+  var $_get = dartx._get;
+  dart._checkModuleNullSafetyMode(true);
+  var T = {
+    IdentityMapOfString$dynamic: () => (T.IdentityMapOfString$dynamic = dart.constFn(_js_helper.IdentityMap$(core.String, dart.dynamic)))(),
+    MapOfString$dynamic: () => (T.MapOfString$dynamic = dart.constFn(core.Map$(core.String, dart.dynamic)))()
+  };
+  const CT = Object.create({
+    _: () => (C, CT)
+  });
+  var I = ["package:my_contact_book_app/contact_model.dart"];
+  var name$ = dart.privateName(contact_model, "Contacts.name");
+  var phone$ = dart.privateName(contact_model, "Contacts.phone");
+  var email$ = dart.privateName(contact_model, "Contacts.email");
+  var country$ = dart.privateName(contact_model, "Contacts.country");
+  var region$ = dart.privateName(contact_model, "Contacts.region");
+  contact_model.Contacts = class Contacts extends core.Object {
+    get name() {
+      return this[name$];
+    }
+    set name(value) {
+      this[name$] = value;
+    }
+    get phone() {
+      return this[phone$];
+    }
+    set phone(value) {
+      this[phone$] = value;
+    }
+    get email() {
+      return this[email$];
+    }
+    set email(value) {
+      this[email$] = value;
+    }
+    get country() {
+      return this[country$];
+    }
+    set country(value) {
+      this[country$] = value;
+    }
+    get region() {
+      return this[region$];
+    }
+    set region(value) {
+      this[region$] = value;
+    }
+    static fromJson(json) {
+      return new contact_model.Contacts.new({name: core.String.as(json[$_get]("name")), phone: core.String.as(json[$_get]("phone")), email: core.String.as(json[$_get]("email")), country: core.String.as(json[$_get]("country")), region: core.String.as(json[$_get]("region"))});
+    }
+    toJson() {
+      return new (T.IdentityMapOfString$dynamic()).from(["name", this.name, "phone", this.phone, "email", this.email, "country", this.country, "region", this.region]);
+    }
+  };
+  (contact_model.Contacts.new = function(opts) {
+    let name = opts && 'name' in opts ? opts.name : null;
+    let phone = opts && 'phone' in opts ? opts.phone : null;
+    let email = opts && 'email' in opts ? opts.email : null;
+    let country = opts && 'country' in opts ? opts.country : null;
+    let region = opts && 'region' in opts ? opts.region : null;
+    this[name$] = name;
+    this[phone$] = phone;
+    this[email$] = email;
+    this[country$] = country;
+    this[region$] = region;
+    ;
+  }).prototype = contact_model.Contacts.prototype;
+  dart.addTypeTests(contact_model.Contacts);
+  dart.addTypeCaches(contact_model.Contacts);
+  dart.setMethodSignature(contact_model.Contacts, () => ({
+    __proto__: dart.getMethods(contact_model.Contacts.__proto__),
+    toJson: dart.fnType(core.Map$(core.String, dart.dynamic), [])
+  }));
+  dart.setLibraryUri(contact_model.Contacts, I[0]);
+  dart.setFieldSignature(contact_model.Contacts, () => ({
+    __proto__: dart.getFields(contact_model.Contacts.__proto__),
+    name: dart.fieldType(core.String),
+    phone: dart.fieldType(core.String),
+    email: dart.fieldType(core.String),
+    country: dart.fieldType(core.String),
+    region: dart.fieldType(core.String)
+  }));
+  contact_model.contactsFromJson = function contactsFromJson(str) {
+    return contact_model.Contacts.fromJson(T.MapOfString$dynamic().as(convert.json.decode(str)));
+  };
+  contact_model.contactsToJson = function contactsToJson(data) {
+    return convert.json.encode(data.toJson());
+  };
+  dart.trackLibraries("packages/my_contact_book_app/contact_model.dart", {
+    "package:my_contact_book_app/contact_model.dart": contact_model
+  }, {
+  }, '{"version":3,"sourceRoot":"","sources":["contact_model.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;IAmBS;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;oBAEwC;AAAS,kEAC5C,AAAI,IAAA,QAAC,gCACJ,AAAI,IAAA,QAAC,iCACL,AAAI,IAAA,QAAC,mCACH,AAAI,IAAA,QAAC,oCACN,AAAI,IAAA,QAAC;IACd;;AAE4B,yDAC3B,QAAQ,WACR,SAAS,YACT,SAAS,YACT,WAAW,cACX,UAAU;IACX;;;QA3BW;QACA;QACA;QACA;QACA;IAJA;IACA;IACA;IACA;IACA;;EACd;;;;;;;;;;;;;;;;6DAX6B;AAAQ,UAAS,4DAAS,AAAK,oBAAO,GAAG;EAAE;yDAE7C;AAAS,UAAA,AAAK,qBAAO,AAAK,IAAD;EAAU","file":"../../../../packages/my_contact_book_app/contact_model.dart.lib.js"}');
+  // Exports:
+  return {
+    contact_model: contact_model
+  };
+}));
+
+//# sourceMappingURL=contact_model.dart.lib.js.map
