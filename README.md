@@ -15,7 +15,7 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-# Famlicious App
+# Contact Book App
 
 A social media app built with [Flutter](https://flutter.dev) and [Firebase](https://firebase.google.com)
 
@@ -29,25 +29,16 @@ A social media app built with [Flutter](https://flutter.dev) and [Firebase](http
 
 </p>
 
-This project is an implementation of a Design i found on [dribble.com](https://dribbble.com/shots/15800627-Famlicious-us-more-together-Social-app) by [Ivan Saverchenko](https://dribbble.com/saverchenko).
-
 ## Art
 
-<img src="https://raw.githubusercontent.com/RegNex/Familicious-App/main/screenshots/Familicious.webp" width="100%"  height="50%"/>
+<img src="https://raw.githubusercontent.com/RegNex/Familicious-App/main/screenshots/main.jpg" width="100%"  height="50%"/>
 <br>
    
 <tr>
-    <td><img align="left" src="https://raw.githubusercontent.com/RegNex/Familicious-App/main/screenshots/screenshot_1.png" width="200" height="400"/></td>
-    <td><img src="https://raw.githubusercontent.com/RegNex/Familicious-App/main/screenshots/screenshot_2.png" width="200" height="400"/></td> 
+    <td><img align="left" src="https://raw.githubusercontent.com/lordgyamfi/Contact-Book-App/main/screenshots/" width="200" height="400"/></td>
+    <td><img src="https://raw.githubusercontent.com/lordgyamfi/Contact-Book-App/main/screenshots/" width="200" height="400"/></td> 
 </tr>
-<tr>
-    <td><img align="left" src="https://raw.githubusercontent.com/RegNex/Familicious-App/main/screenshots/screenshot_3.png" width="200" height="400"/></td>
-    <td><img src="https://raw.githubusercontent.com/RegNex/Familicious-App/main/screenshots/screenshot_4.png" width="200" height="400"/></td> 
-</tr>
-<tr>
-    <td><img align="left" src="https://raw.githubusercontent.com/RegNex/Familicious-App/main/screenshots/screenshot_5.png" width="200" height="400"/></td>
-    <td><img src="https://raw.githubusercontent.com/RegNex/Familicious-App/main/screenshots/screenshot_6.png" width="200" height="400"/></td> 
-</tr>
+
 
 ## Getting Started
 
@@ -61,7 +52,7 @@ cd folder/to/clone-into/
 ```
 
 ```
-git clone https://github.com/RegNex/Familicious.git
+git clone https://github.com/lordgyamfi/Contact-Book-App.git
 ```
 
 Then
@@ -84,11 +75,6 @@ C:\path\to\project> flutter run
 ```
 run: flutter build <OS PLATFORM> e.g flutter build ios --release
 ```
-
-
-## Switch Theme
-
-**Automatically switch theme based on system settings**
 
 ## Resources
 
@@ -128,16 +114,11 @@ What things you need to run the app
 
 ## Author 😊
 
-**Etornam Sunu Bright**
+**Lord Gyamfi**
 
-- [**Twitter**](https://bit.ly/3ivb9GC)
-- [**Linkedin**](https://bit.ly/3iyxOl8)
+- [**Twitter**](https://)
+- [**Linkedin**](https://)
 
-## Inspiration
-
-**Ivan Saverchenko**
-
-- [Ivan Saverchenko](https://dribbble.com/saverchenko)
 
 ## License
 
